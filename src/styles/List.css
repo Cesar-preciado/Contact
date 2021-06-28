@@ -1,0 +1,47 @@
+
+.App-body .App-list{
+    width: auto;
+    height: auto;
+}
+
+.App-list .Contact{
+    display: flex;
+    height: 100px;
+    border-bottom: 0;
+    border-right: 0;
+}
+
+
+.Contact .items{
+  border: 1px solid #61dafb0d;
+  width: 100%;
+  border-bottom:0;
+  border-right: 0;
+ 
+}
+
+.Contact .items:first-child{
+    width: 110px;
+    padding: 0 10px;
+    border-right: 0;
+    border-left: 0;
+}
+
+
+.Contact .items:first-child .photo{
+    border: 1px solid #61dafb0d;
+    height: 80px;
+    margin: 11px 0;
+    border-radius: 8px;
+}
+
+
+.Contact .inform{
+    margin: 25px 0;
+}
+.inform p{
+    margin: 0 0 8px 10px;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    color: #cbebf4;
+}

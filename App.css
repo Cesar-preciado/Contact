@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App-contacts{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.App-contacts .App-header{
+     display: flex;
+     justify-content: space-between;
+}
+
+.App-header .App-hamburguesa{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+
+.App-header .App-title{}
+
+
+

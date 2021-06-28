@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App-contacts{
+    margin: 0 auto;
+    border:1px solid #00000017;
+    background-color: #20232a;
+    border-radius: 12px;
+    /*width: 500px;*/
+}
+
+/* Encabezado de pagina */
+
+.App-contacts .App-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 10px;
+    border-bottom: 1px solid #dddddd12;
+}
+
+
+.App-header .App-hamburguesa{
+   border: 1px solid #00000024;
+   width: 50px;
+   height: 50px;
+   padding: 5px;
+}
+
+.App-hamburguesa .bar{
+    border: 1px solid black;
+    height: 6px;
+    background-color: black;
+    margin: 5px 0;
+
+}
+
+.App-header .App-title{
+    font-size: 12px;
+    line-height: 1.9;
+    color: #61dafb;
+}
+
+
+
+/* Cuerpo  de pagina */
+.App-contacts .App-body{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+       
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    
+    .App-contacts{
+        width: 500px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

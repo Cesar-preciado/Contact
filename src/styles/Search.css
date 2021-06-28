@@ -1,0 +1,33 @@
+
+/* Cuadro de busquedad */
+
+.App-body .App-search .Search{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.Search input{
+    border:1px solid #ddd;
+    padding: 8px;
+    outline: none;
+    margin: 3px 18px 0 0 ;
+    border-radius: 4px;
+}
+
+.Search button{
+    border:0;
+    background-color:#e5edff;
+    padding: 8px;
+    color: #61dafb;
+    border-radius: 4px;
+    height: 38px;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+
+
+
